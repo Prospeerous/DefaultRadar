@@ -6,6 +6,7 @@ Credit Risk & Loan Default Prediction — Streamlit Demo App
 import warnings
 warnings.filterwarnings('ignore')
 
+import os
 import streamlit as st
 import pandas as pd
 import numpy as np
@@ -13,6 +14,9 @@ import joblib
 import shap
 import matplotlib.pyplot as plt
 import matplotlib.patches as mpatches
+
+# Resolve paths relative to this file so they work both locally and on Streamlit Cloud
+_DIR = os.path.dirname(os.path.abspath(__file__))
 
 # ── page config ───────────────────────────────────────────────────────────────
 st.set_page_config(
@@ -289,9 +293,9 @@ def html_table(df: "pd.DataFrame") -> str:
 # ── load artifacts ─────────────────────────────────────────────────────────────
 @st.cache_resource
 def load_artifacts():
-    model         = joblib.load("app/model.pkl")
-    scaler        = joblib.load("app/scaler.pkl")
-    feature_names = joblib.load("app/feature_names.pkl")
+    model         = joblib.load(os.path.join(_DIR, "model.pkl"))
+    scaler        = joblib.load(os.path.join(_DIR, "scaler.pkl"))
+    feature_names = joblib.load(os.path.join(_DIR, "feature_names.pkl"))
     explainer     = shap.TreeExplainer(model)
     return model, scaler, feature_names, explainer
 
