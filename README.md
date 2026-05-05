@@ -11,10 +11,13 @@
 [![Streamlit](https://img.shields.io/badge/Streamlit-1.57-FF4B4B?style=for-the-badge&logo=streamlit&logoColor=white)](https://streamlit.io)
 [![scikit-learn](https://img.shields.io/badge/scikit--learn-1.7-F7931E?style=for-the-badge&logo=scikit-learn&logoColor=white)](https://scikit-learn.org)
 [![SHAP](https://img.shields.io/badge/SHAP-Explainability-00C49F?style=for-the-badge)](https://shap.readthedocs.io)
+[![Live Demo](https://img.shields.io/badge/Live%20Demo-Streamlit%20Cloud-FF4B4B?style=for-the-badge&logo=streamlit&logoColor=white)](https://defaultradar-22xpvazz4cxoifunfwnmpk.streamlit.app/)
 
 ---
 
 **ROC-AUC 94.49%** &nbsp;·&nbsp; **6 Models Benchmarked** &nbsp;·&nbsp; **32,581 Borrowers** &nbsp;·&nbsp; **Zero Overfitting**
+
+### [▶ Try the Live Demo](https://defaultradar-22xpvazz4cxoifunfwnmpk.streamlit.app/)
 
 </div>
 
@@ -32,7 +35,10 @@ This is not just a model. It's a complete, deployable risk assessment pipeline.
 
 ## Live Demo
 
-> Launch the Streamlit app locally:
+**Deployed on Streamlit Community Cloud:**
+👉 **[https://defaultradar-22xpvazz4cxoifunfwnmpk.streamlit.app/](https://defaultradar-22xpvazz4cxoifunfwnmpk.streamlit.app/)**
+
+> Or run locally:
 > ```bash
 > streamlit run app/app.py
 > ```
