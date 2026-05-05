@@ -331,6 +331,5 @@ Built with Python · XGBoost · SHAP · Streamlit
 
 **© 2026 Abigael Mwangi** · [GitHub](https://github.com/Prospeerous/DefaultRadar)
 
-*Strathmore University — Data Science Portfolio Project*
 
 </div>
