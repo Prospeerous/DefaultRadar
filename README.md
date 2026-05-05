@@ -278,6 +278,6 @@ DefaultRadar addresses all four.
 
 Built with Python · XGBoost · SHAP · Streamlit
 
-*Strathmore University — Data Science Portfolio Project*
+*Abigael Mwangi — Your top Data Scientist*
 
 </div>
