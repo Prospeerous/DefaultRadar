@@ -12,6 +12,7 @@
 [![scikit-learn](https://img.shields.io/badge/scikit--learn-1.7-F7931E?style=for-the-badge&logo=scikit-learn&logoColor=white)](https://scikit-learn.org)
 [![SHAP](https://img.shields.io/badge/SHAP-Explainability-00C49F?style=for-the-badge)](https://shap.readthedocs.io)
 [![Live Demo](https://img.shields.io/badge/Live%20Demo-Streamlit%20Cloud-FF4B4B?style=for-the-badge&logo=streamlit&logoColor=white)](https://defaultradar-22xpvazz4cxoifunfwnmpk.streamlit.app/)
+[![License: MIT](https://img.shields.io/badge/License-MIT%20%C2%A9%20Abigael%20Mwangi-yellow?style=for-the-badge)](LICENSE)
 
 ---
 
@@ -280,10 +281,56 @@ DefaultRadar addresses all four.
 
 ---
 
+## License & Attribution
+
+This project is licensed under the **MIT License** — see the [LICENSE](LICENSE) file for full terms.
+
+**Copyright © 2026 Abigael Mwangi. All rights reserved.**
+
+You are free to use, fork, share, and build upon this work **as long as you give credit**. The MIT license legally requires that the original copyright notice is preserved in any copy or derivative of this project. In plain terms:
+
+> ✅ Use it for learning, research, or your own projects  
+> ✅ Fork it and build on top of it  
+> ✅ Share it with others  
+> ❗ You **must** credit **Abigael Mwangi** as the original author  
+> ❗ You **must not** remove or replace the copyright notice  
+
+---
+
+## Citation
+
+If you use this project in your work, research, or portfolio, please credit it as follows:
+
+**Plain text:**
+```
+Mwangi, Abigael (2026). DefaultRadar: Credit Risk & Loan Default Prediction.
+GitHub. https://github.com/Prospeerous/DefaultRadar
+```
+
+**Markdown (for READMEs):**
+```markdown
+Based on [DefaultRadar](https://github.com/Prospeerous/DefaultRadar) by [Abigael Mwangi](https://github.com/Prospeerous).
+```
+
+**BibTeX (for academic use):**
+```bibtex
+@misc{mwangi2026defaultradar,
+  author       = {Mwangi, Abigael},
+  title        = {DefaultRadar: Credit Risk and Loan Default Prediction},
+  year         = {2026},
+  publisher    = {GitHub},
+  howpublished = {\url{https://github.com/Prospeerous/DefaultRadar}}
+}
+```
+
+---
+
 <div align="center">
 
 Built with Python · XGBoost · SHAP · Streamlit
 
-*Abigael Mwangi — Your top Data Scientist*
+**© 2026 Abigael Mwangi** · [GitHub](https://github.com/Prospeerous/DefaultRadar)
+
+*Strathmore University — Data Science Portfolio Project*
 
 </div>
